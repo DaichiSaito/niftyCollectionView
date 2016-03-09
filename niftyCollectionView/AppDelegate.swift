@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        //"xxx"：アプリケーションキー, "yyy"：クライアントキー
+        NCMB.setApplicationKey("b695aa75ddf859c8d3794493dd2d02e608f7b601c16b651bb658deb822430552", clientKey: "bbb61c2904898803bf6961132a00afeebbb633a52c1c83146de75276379cccc1")
         return true
     }
 
@@ -43,4 +45,50 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
+//
+//import UIKit
+//
+//@UIApplicationMain
+//class AppDelegate: UIResponder, UIApplicationDelegate {
+//
+//    var window: UIWindow?
+//
+//
+//
+//    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+//        // Override point for customization after application launch.
+//        
+//        //"xxx"：アプリケーションキー, "yyy"：クライアントキー
+//        NCMB.setApplicationKey("b695aa75ddf859c8d3794493dd2d02e608f7b601c16b651bb658deb822430552", clientKey: "bbb61c2904898803bf6961132a00afeebbb633a52c1c83146de75276379cccc1")
+//        
+//        let query: NCMBQuery = NCMBQuery(className: "TestClass")
+//        query.whereKey("message", equalTo: "Hello, NCMB!")
+//        query.findObjectsInBackgroundWithBlock({(NSArray objects, NSError error) in
+//            
+//            if error == nil {
+//                
+//                if objects.count > 0 {
+//                    let msg: AnyObject? = objects[0].objectForKey("message")
+//                    let msgStr: String = msg as! String
+//                    print("success find data. \(msgStr)")
+//                } else {
+//                    var saveError : NSError? = nil
+//                    let obj : NCMBObject = NCMBObject(className: "TestClass")
+//                    obj.setObject("Hello, NCMB!", forKey: "message")
+//                    obj.save(&saveError)
+//                    
+//                    if saveError == nil {
+//                        print("success save data.")
+//                    } else {
+//                        print("failure save data. \(saveError)")
+//                    }
+//                }
+//                
+//            } else {
+//                print(error.localizedDescription)
+//            }
+//        })
+//    
+//    return true
+//    }
+//}

@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BF7E2A6423AE807678BA6E7 /* libPods-niftyCollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A81E028FF149F227066AA9 /* libPods-niftyCollectionView.a */; };
 		944CC9CC1C8FC8C30029C723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944CC9CB1C8FC8C30029C723 /* AppDelegate.swift */; };
 		944CC9CE1C8FC8C30029C723 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944CC9CD1C8FC8C30029C723 /* ViewController.swift */; };
 		944CC9D11C8FC8C30029C723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944CC9CF1C8FC8C30029C723 /* Main.storyboard */; };
 		944CC9D31C8FC8C30029C723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944CC9D21C8FC8C30029C723 /* Assets.xcassets */; };
 		944CC9D61C8FC8C30029C723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944CC9D41C8FC8C30029C723 /* LaunchScreen.storyboard */; };
+		944CC9DF1C8FD6A10029C723 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 944CC9DE1C8FD6A10029C723 /* smile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		208103F54DAEA551C7A3386D /* Pods-niftyCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-niftyCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-niftyCollectionView/Pods-niftyCollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		39AD9B9BE414657DC55C7EEB /* Pods-niftyCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-niftyCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-niftyCollectionView/Pods-niftyCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		85A81E028FF149F227066AA9 /* libPods-niftyCollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-niftyCollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		944CC9C81C8FC8C30029C723 /* niftyCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = niftyCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944CC9CB1C8FC8C30029C723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		944CC9CD1C8FC8C30029C723 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,8 @@
 		944CC9D21C8FC8C30029C723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		944CC9D51C8FC8C30029C723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		944CC9D71C8FC8C30029C723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944CC9DD1C8FD0010029C723 /* niftyCollectionView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "niftyCollectionView-Bridging-Header.h"; path = "niftyCollectionView/niftyCollectionView-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		944CC9DE1C8FD6A10029C723 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile.png; path = ../../../Desktop/smile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF7E2A6423AE807678BA6E7 /* libPods-niftyCollectionView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,8 @@
 			children = (
 				944CC9CA1C8FC8C30029C723 /* niftyCollectionView */,
 				944CC9C91C8FC8C30029C723 /* Products */,
+				EDFE8FD94E7E04AD45764FE2 /* Pods */,
+				E81D86B42D66502A1AC8619F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +64,8 @@
 		944CC9CA1C8FC8C30029C723 /* niftyCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				944CC9DE1C8FD6A10029C723 /* smile.png */,
+				944CC9DD1C8FD0010029C723 /* niftyCollectionView-Bridging-Header.h */,
 				944CC9CB1C8FC8C30029C723 /* AppDelegate.swift */,
 				944CC9CD1C8FC8C30029C723 /* ViewController.swift */,
 				944CC9CF1C8FC8C30029C723 /* Main.storyboard */,
@@ -64,6 +76,23 @@
 			path = niftyCollectionView;
 			sourceTree = "<group>";
 		};
+		E81D86B42D66502A1AC8619F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85A81E028FF149F227066AA9 /* libPods-niftyCollectionView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDFE8FD94E7E04AD45764FE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39AD9B9BE414657DC55C7EEB /* Pods-niftyCollectionView.debug.xcconfig */,
+				208103F54DAEA551C7A3386D /* Pods-niftyCollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +100,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 944CC9DA1C8FC8C30029C723 /* Build configuration list for PBXNativeTarget "niftyCollectionView" */;
 			buildPhases = (
+				044CD1760842F3649B115135 /* Check Pods Manifest.lock */,
 				944CC9C41C8FC8C30029C723 /* Sources */,
 				944CC9C51C8FC8C30029C723 /* Frameworks */,
 				944CC9C61C8FC8C30029C723 /* Resources */,
+				AEC1E3FC71422F652BDD9A6E /* Embed Pods Frameworks */,
+				7A462773A60FAE4D31DD30D2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,11 +156,60 @@
 			files = (
 				944CC9D61C8FC8C30029C723 /* LaunchScreen.storyboard in Resources */,
 				944CC9D31C8FC8C30029C723 /* Assets.xcassets in Resources */,
+				944CC9DF1C8FD6A10029C723 /* smile.png in Resources */,
 				944CC9D11C8FC8C30029C723 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		044CD1760842F3649B115135 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A462773A60FAE4D31DD30D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-niftyCollectionView/Pods-niftyCollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEC1E3FC71422F652BDD9A6E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-niftyCollectionView/Pods-niftyCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		944CC9C41C8FC8C30029C723 /* Sources */ = {
@@ -245,23 +326,27 @@
 		};
 		944CC9DB1C8FC8C30029C723 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AD9B9BE414657DC55C7EEB /* Pods-niftyCollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = niftyCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oshige.niftyCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/niftyCollectionView-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		944CC9DC1C8FC8C30029C723 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208103F54DAEA551C7A3386D /* Pods-niftyCollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = niftyCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oshige.niftyCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/niftyCollectionView-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -284,6 +369,7 @@
 				944CC9DC1C8FC8C30029C723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
